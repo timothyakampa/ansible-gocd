@@ -1,0 +1,5 @@
+[server]
+go_server
+
+[agents]
+go_agent_1

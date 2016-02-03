@@ -1,0 +1,4 @@
+GOCD_SERVER_HOST: localhost
+GOCD_SERVER_PORT: 8153
+GOCD_SCM_GIT: true
+GOCD_AUTO_REGISTER_KEY: insecure_registration_key

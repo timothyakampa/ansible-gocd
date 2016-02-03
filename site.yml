@@ -1,12 +1,18 @@
 ---
 - hosts: all
+  sudo: yes
+  remote_user: root
   roles:
     - common
 
 - hosts: server
+  sudo: yes
+  remote_user: root
   roles:
     - server
 
 - hosts: agents
+  sudo: yes
+  remote_user: root
   roles:
     - agent
